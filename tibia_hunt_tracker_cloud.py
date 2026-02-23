@@ -2,7 +2,7 @@ import requests
 import os
 
 # Configuration
-RAILWAY_API_URL = 'https://your-railway-api-url.com'
+RAILWAY_API_URL = 'https://tibiahunttracker.up.railway.app/'
 JWT_TOKEN = os.getenv('JWT_TOKEN')  # Assuming the JWT token is stored in an environment variable
 
 # Helper function to make API requests
